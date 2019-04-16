@@ -19,7 +19,7 @@ println("Trasposed multiplication A'A: $(A'A)")
 #inverse(A) * b
 println("A\\b: $(A\b)")
 
-v = rand(3)
+v = rand(3) #generate a vector of 3 random numbers
 println("v: $v")
 rankdef = hcat(v, v) #hcat: concatenate along dimension 2
 println("rankdef: $rankdef")
