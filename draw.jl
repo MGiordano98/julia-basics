@@ -32,5 +32,6 @@ function dextranode(h,locs_x, locs_y, clocs_x, clocs_y)
     ax= plt.gca()
     plt.xticks([])
     plt.yticks([])
+    close()
     gcf()
 end

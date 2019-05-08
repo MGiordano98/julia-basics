@@ -6,12 +6,11 @@ using LightGraphs
 using PyPlot
 
 export hgplot
-export generatehg
-export chyperedges
+export generatehg, chyperedges
 export dextranode
 
-include("./plot.jl")
-include("./util.jl")
-include("./draw.jl")
+include("plot.jl")
+include("util.jl")
+include("draw.jl")
 
 end
